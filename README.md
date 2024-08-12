@@ -1,5 +1,7 @@
 # curso-rxjs
 
+try on: https://dniskav.github.io/worldle-rxjs/
+
 To install dependencies:
 
 ```bash
