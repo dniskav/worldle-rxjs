@@ -7,7 +7,7 @@ module.exports = {
   // Configuración de salida del bundle
   output: {
     filename: 'bundle.js', // Nombre del archivo de salida
-    path: path.resolve(__dirname, 'public'), // Ruta de salida
+    path: path.resolve(__dirname, 'docs'), // Ruta de salida
   },
   devtool: 'source-map',
   // Modo de compilación
@@ -16,7 +16,7 @@ module.exports = {
   // Configuración del servidor de desarrollo
   devServer: {
     static: {
-      directory: path.resolve(__dirname, 'public'), // Ruta de contenido estático
+      directory: path.resolve(__dirname, 'docs'), // Ruta de contenido estático
     },
     compress: true, // Habilita la compresión gzip
     port: 9000, // Puerto del servidor de desarrollo
